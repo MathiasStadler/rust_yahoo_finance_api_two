@@ -5,6 +5,7 @@
 - [![alt text][1]](https://docs.rs/yahoo_finance_api/latest/yahoo_finance_api/)
 - [![alt text][1]](https://crates.io/crates/yahoo_finance_api)
 - [![alt text][1]](https://www.nasdaq.com/market-activity/stocks/trex/historical?page=1&rows_per_page=10&timeline=y5)
+- free nasdaq historical data download [alt text][1]](https://duckduckgo.com/?q=free+nasdaq+historical+data+download&t=euandroid&ia=web)
 
 ## [![alt text][1]](https://github.com/rust-lang/cargo/blob/master/src/doc/src/reference/build-scripts.md)
 
