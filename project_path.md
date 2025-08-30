@@ -35,6 +35,48 @@ touch README.md \
 
 ```
 
+<!-- keep the format -->
+## Show which toolchain is active
+<!-- keep the format -->
+```bash <!-- markdownlint-disable-line code-block-style -->
+rustup show
+# or better
+rustup show |sed -n '/active toolchain/,/^$/p'
+```
+<!-- keep the format -->
+<!-- -keep the format -->
+## Install sccache
+<!-- keep the format -->
+```bash<!-- markdownlint-disable-line code-block-style -->
+cargo add sccache
+```
+<!-- keep the format -->
+## cargo build --timings  [![alt text][1]](https://doc.rust-lang.org/cargo/reference/timings.html)
+
+<!-- keep the format -->
+## Sho statistic for sccache [![alt text][1]](/https://github.com/wasmerio/sccache)
+<!-- keep the format -->
+```bash<!-- markdownlint-disable-line code-block-style -->
+sccache --show-stats
+```
+
+sccache --stop-server
+sccache --start-server
+sccache -s
+watch sccache -s
+
+rm -rf target/debug && cargo build --timings
+
+then see [![alt text][1]](target/cargo-timings/cargo-timing.html)
+
+- FROM HERE [![alt text][1]](https://rust-training.ferrous-systems.com/latest/book/rust-build-time)
+
+Producing a build timings report
+
+/home/trapapa/workspce_codium/rust_yahoo_finance_api/target/cargo-timings/cargo-timing.html
+
+SCCACHE_ERROR_LOG=/tmp/sccache_log.txt SCCACHE_LOG=debug sccache cargo build
+
 ## Project path see here [![alt text][1]](./project_path.md)
 <!-- keep the format -->
 > NOTE:
