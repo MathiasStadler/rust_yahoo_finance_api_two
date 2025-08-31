@@ -1,7 +1,11 @@
 {
     "cSpell.words": [
+        "chrono",
+        "reqwest",
+        "RUSTC",
         "rustup",
         "sccache",
+        "serde",
         "trapapa",
         "workspce",
         "Ztimings"

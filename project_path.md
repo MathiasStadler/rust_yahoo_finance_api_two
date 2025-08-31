@@ -52,13 +52,30 @@ cargo add sccache
 ```
 <!-- keep the format -->
 ## cargo build --timings  [![alt text][1]](https://doc.rust-lang.org/cargo/reference/timings.html)
+<!-- keep the format -->
+```bash<!-- markdownlint-disable-line code-block-style -->
+# with sccache
+RUSTC_WRAPPER=sccache cargo build --timings
+```
 
 <!-- keep the format -->
-## Sho statistic for sccache [![alt text][1]](/https://github.com/wasmerio/sccache)
+## Show statistic for sccache [![alt text][1]](/https://github.com/wasmerio/sccache)
 <!-- keep the format -->
 ```bash<!-- markdownlint-disable-line code-block-style -->
 sccache --show-stats
 ```
+<!-- keep the format -->
+## Use case sccache [![alt text][1]](/https://github.com/wasmerio/sccache)
+<!-- keep the format -->
+```bash<!-- markdownlint-disable-line code-block-style -->
+sccache --stop-server
+cargo clean
+time cargo build
+# RUSTC_WRAPPER=sccache cargo build --timings
+```
+<!-- keep the format -->
+
+sccache --stop-server
 
 sccache --stop-server
 sccache --start-server
