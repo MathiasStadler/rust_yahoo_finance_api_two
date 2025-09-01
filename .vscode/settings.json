@@ -1,6 +1,7 @@
 {
     "cSpell.words": [
         "chrono",
+        "OHLCV",
         "reqwest",
         "RUSTC",
         "rustup",
