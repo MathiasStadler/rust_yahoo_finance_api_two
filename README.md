@@ -2,16 +2,25 @@
 
 ## Follow this tutorial [![alt text][1]](https://bernardo.shippedbrain.com/rust_process_and_download_stock_data/)
 
+## crates
+
+- crates.io  [![alt text][1]](https://crates.io/crates/yahoo_finance_api)
+- github.com [![alt text][1]](https://github.com/xemwebe/yahoo_finance_api)
+
 ## Stock data api
 
-- https://github.com/xemwebe/yahoo_finance_api/blob/master/Cargo.toml
+- [![alt text][1]](https://github.com/xemwebe/yahoo_finance_api/blob/master/Cargo.toml)
 - Crate yahoo_finance_api [![alt text][1]](https://docs.rs/yahoo_finance_api/latest/yahoo_finance_api/)
 - [![alt text][1]](https://crates.io/crates/yahoo_finance_api)
 - [![alt text][1]](https://www.nasdaq.com/market-activity/stocks/trex/historical?page=1&rows_per_page=10&timeline=y5)
-- free nasdaq historical data download [alt text][1]](https://duckduckgo.com/?q=free+nasdaq+historical+data+download&t=euandroid&ia=web)
-- https://docs.rs/rust_decimal/latest/rust_decimal/
+- free nasdaq historical data download [![alt text][1]](https://duckduckgo.com/?q=free+nasdaq+historical+data+download&t=euandroid&ia=web)
+- [![alt text][1]](https://docs.rs/rust_decimal/latest/rust_decimal/)
 
 ## [![alt text][1]](https://github.com/rust-lang/cargo/blob/master/src/doc/src/reference/build-scripts.md)
+
+## Stock member of which sector [![alt text][1]]( https://www.schwabassetmanagement.com/story/what-are-stock-sectors)
+
+- FINVIZ Sector [![alt text][1]](https://finviz.com/groups.ashx)
 
 ## Exploring Crate Graph Build Times with `cargo build -Ztimings`
 <!-- keep the format -->

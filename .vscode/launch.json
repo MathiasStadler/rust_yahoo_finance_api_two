@@ -1,0 +1,415 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'rust_yahoo_finance_api'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=rust_yahoo_finance_api",
+                    "--package=rust_yahoo_finance_api"
+                ],
+                "filter": {
+                    "name": "rust_yahoo_finance_api",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'rust_yahoo_finance_api'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=rust_yahoo_finance_api",
+                    "--package=rust_yahoo_finance_api"
+                ],
+                "filter": {
+                    "name": "rust_yahoo_finance_api",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '01_sample'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=01_sample",
+                    "--package=rust_yahoo_finance_api"
+                ],
+                "filter": {
+                    "name": "01_sample",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '01_sample'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=01_sample",
+                    "--package=rust_yahoo_finance_api"
+                ],
+                "filter": {
+                    "name": "01_sample",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '02_sample'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=02_sample",
+                    "--package=rust_yahoo_finance_api"
+                ],
+                "filter": {
+                    "name": "02_sample",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '02_sample'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=02_sample",
+                    "--package=rust_yahoo_finance_api"
+                ],
+                "filter": {
+                    "name": "02_sample",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '03_histry_data'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=03_histry_data",
+                    "--package=rust_yahoo_finance_api"
+                ],
+                "filter": {
+                    "name": "03_histry_data",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '03_histry_data'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=03_histry_data",
+                    "--package=rust_yahoo_finance_api"
+                ],
+                "filter": {
+                    "name": "03_histry_data",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '04_get_history_by_time_range'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=04_get_history_by_time_range",
+                    "--package=rust_yahoo_finance_api"
+                ],
+                "filter": {
+                    "name": "04_get_history_by_time_range",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '04_get_history_by_time_range'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=04_get_history_by_time_range",
+                    "--package=rust_yahoo_finance_api"
+                ],
+                "filter": {
+                    "name": "04_get_history_by_time_range",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '05_chrone_time'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=05_chrone_time",
+                    "--package=rust_yahoo_finance_api"
+                ],
+                "filter": {
+                    "name": "05_chrone_time",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '05_chrone_time'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=05_chrone_time",
+                    "--package=rust_yahoo_finance_api"
+                ],
+                "filter": {
+                    "name": "05_chrone_time",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '06_exsample'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=06_exsample",
+                    "--package=rust_yahoo_finance_api"
+                ],
+                "filter": {
+                    "name": "06_exsample",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '06_exsample'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=06_exsample",
+                    "--package=rust_yahoo_finance_api"
+                ],
+                "filter": {
+                    "name": "06_exsample",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '07_sector_list'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=07_sector_list",
+                    "--package=rust_yahoo_finance_api"
+                ],
+                "filter": {
+                    "name": "07_sector_list",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '07_sector_list'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=07_sector_list",
+                    "--package=rust_yahoo_finance_api"
+                ],
+                "filter": {
+                    "name": "07_sector_list",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '08_get_ticker_of_name'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=08_get_ticker_of_name",
+                    "--package=rust_yahoo_finance_api"
+                ],
+                "filter": {
+                    "name": "08_get_ticker_of_name",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '08_get_ticker_of_name'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=08_get_ticker_of_name",
+                    "--package=rust_yahoo_finance_api"
+                ],
+                "filter": {
+                    "name": "08_get_ticker_of_name",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example '09_get_ticker_info'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=09_get_ticker_info",
+                    "--package=rust_yahoo_finance_api"
+                ],
+                "filter": {
+                    "name": "09_get_ticker_info",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example '09_get_ticker_info'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=09_get_ticker_info",
+                    "--package=rust_yahoo_finance_api"
+                ],
+                "filter": {
+                    "name": "09_get_ticker_info",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'example'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=example",
+                    "--package=rust_yahoo_finance_api"
+                ],
+                "filter": {
+                    "name": "example",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'example'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=example",
+                    "--package=rust_yahoo_finance_api"
+                ],
+                "filter": {
+                    "name": "example",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
